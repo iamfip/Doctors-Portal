@@ -13,6 +13,9 @@ const useFirebase = () => {
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
+ 
+    // Login with Email and Password! 
+
 
     const registerUser = (email, password, name, history) => {
         setIsLoading(true);
